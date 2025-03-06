@@ -1,5 +1,5 @@
 /*!
-  GrowField v0.0.1 (https://growfield.js.org)
+  GrowField v0.1.0 (https://growfield.js.org)
   by Five Fifteen (https://fivefifteen.com)
 */
 

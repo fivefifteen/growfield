@@ -5,13 +5,13 @@
 })(this, (function () { 'use strict';
 
   /*!
-    growfield v0.0.1 (https://growfield.js.org)
-    by Kodie Grantham (https://kodieg.com)
+    GrowField v0.1.0 (https://growfield.js.org)
+    by Five Fifteen (https://fivefifteen.com)
   */
 
-  var growfield = function growfield(selector, options) {
+  var _growfield = function growfield(selector, options) {
     if (!selector) selector = '.growfield';
-    options = Object.assign({}, growfield.defaultOptions, options);
+    options = Object.assign({}, _growfield.defaultOptions, options);
     var elements;
     if (typeof selector === 'string') {
       elements = document.querySelectorAll(selector);
@@ -26,7 +26,7 @@
           element.style.setProperty('min-height', 'none');
           element.style.setProperty('resize', 'none');
           element.growfield = options;
-          element.addEventListener('input', growfield.onInput);
+          element.addEventListener('input', _growfield.onInput);
           element.dispatchEvent(new Event('input', {
             bubbles: true
           }));
@@ -41,11 +41,11 @@
     }
     return false;
   };
-  growfield.defaultOptions = {
+  _growfield.defaultOptions = {
     maxRows: null,
     minRows: null
   };
-  growfield.onInput = function (e) {
+  _growfield.onInput = function (e) {
     var element = e.currentTarget;
     var opts = element.growfield;
     element.setAttribute('rows', '1');
@@ -73,7 +73,7 @@
     element.setAttribute('rows', String(rows));
   };
 
-  return growfield;
+  return _growfield;
 
 }));
 //# sourceMappingURL=growfield.js.map
