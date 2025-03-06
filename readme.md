@@ -1,12 +1,25 @@
-# growfield
+<div align="center">
 
-[![npm package version](https://img.shields.io/npm/v/growfield.svg?style=flat-square)](https://www.npmjs.com/package/growfield)
-[![Travis build status](https://img.shields.io/travis/com/fivefifteen/growfield.svg?style=flat-square)](https://travis-ci.com/fivefifteen/growfield)
-[![npm package downloads](https://img.shields.io/npm/dt/growfield.svg?style=flat-square)](https://www.npmjs.com/package/growfield)
-[![code style](https://img.shields.io/badge/code_style-standard-yellow.svg?style=flat-square)](https://github.com/standard/standard)
-[![license](https://img.shields.io/github/license/fivefifteen/growfield.svg?style=flat-square)](license.md)
+  <a href="https://github.com/fivefifteen/growfield">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/growfield-white.png">
+      <img src="./assets/growfield.png" alt="GrowField">
+    </picture>
+  </a>
 
-A tiny, dependency-free JavaScript module for making textarea elements grow with their content.
+  # GrowField
+
+  A tiny, dependency-free JavaScript module for making textarea elements grow with their content.
+
+  [![npm package version](https://img.shields.io/npm/v/growfield.svg?style=flat-square)](https://www.npmjs.com/package/growfield)
+  [![npm package downloads](https://img.shields.io/npm/dt/growfield.svg?style=flat-square)](https://www.npmjs.com/package/growfield)
+  [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/fivefifteen/growfield?style=flat-square)](https://github.com/fivefifteen/growfield)
+  [![code style](https://img.shields.io/badge/code_style-standard-yellow.svg?style=flat-square)](https://github.com/standard/standard)
+  [![license](https://img.shields.io/github/license/fivefifteen/growfield.svg?style=flat-square)](license.md)
+
+  <a href="https://fivefifteen.com" target="_blank"><img src="./assets/fivefifteen.png" /><br /><b>A Five Fifteen Project</b></a>
+
+</div>
 
 
 ## Demo
@@ -31,7 +44,7 @@ Download [dist/growfield.min.js](dist/growfield.min.js) and place the following 
 Place the following HTML in your page's head element (check to make sure the version in the URL is the version you want):
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/fivefifteen/growfield@0.0.1/dist/growfield.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/fivefifteen/growfield@0.1/dist/growfield.min.js"></script>
 ```
 
 
@@ -50,10 +63,10 @@ const growfield = require('growfield')
 ```
 
 
-### [GPM](https://github.com/itsahappymedium/gpm)
+### [Fetcher](https://github.com/fivefifteen/fetcher)
 
 ```
-gpm install fivefifteen/growfield --save
+fetcher install fivefifteen/growfield --save
 ```
 
 
@@ -70,7 +83,7 @@ bower install fivefifteen/growfield --save
 
 `growfield([selector], [options])`
 
-Initializes growfield.
+Initializes GrowField.
 
 
 #### Parameters
@@ -106,17 +119,13 @@ A special thanks to Rick Kukiela for posting [this StackOverflow answer](https:/
 
 ## Related
 
- - [filebokz](https://github.com/fivefifteen/filebokz) - A tiny, dependency-free, highly customizable and configurable, easy to use file input with some pretty sweet features.
+ - [ColorTap](https://github.com/fivefifteen/colortap) - A tiny, dependency-free, color input field helper that utilizes the native color picker.
 
- - [hashjump](https://github.com/fivefifteen/hashjump) - A tiny, dependency-free JavaScript module for handling anchor links and scrolling elements into view.
+ - [FileBokz](https://github.com/fivefifteen/filebokz) - A tiny, dependency-free, highly customizable and configurable, easy to use file input with some pretty sweet features.
 
- - [kloner](https://github.com/fivefifteen/kloner) - A tiny, dependency-free JavaScript module for cloning/repeating elements.
+ - [HashJump](https://github.com/fivefifteen/hashjump) - A tiny, dependency-free JavaScript module for handling anchor links and scrolling elements into view.
 
- - [kolorfield](https://github.com/fivefifteen/kolorfield) - A tiny, dependency-free, color input field helper that utilizes the native color picker.
-
- - [minitaur](https://github.com/fivefifteen/minitaur) - The ultimate, dependency-free, easy to use, JavaScript plugin for creating and managing modals.
-
- - [peekfield](https://github.com/fivefifteen/peekfield) - A dependency-free, easy to use, JavaScript plugin for hiding and showing fields.
+ - [Kloner](https://github.com/fivefifteen/kloner) - A tiny, dependency-free JavaScript module for cloning/repeating elements.
 
 
 ## License

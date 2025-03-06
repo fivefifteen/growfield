@@ -1,25 +1,97 @@
 <!doctype html>
 <html>
   <head>
-    <title>growfield - A tiny, dependency-free JavaScript module for making textarea elements grow with their content.</title>
+    <title>GrowField — A tiny, dependency-free JavaScript module for making textarea elements grow with their content</title>
+    <meta name="viewport" content="width=device-width" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="A tiny, dependency-free JavaScript module for making textarea elements grow with their content" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="GrowField — A tiny, dependency-free JavaScript module for making textarea elements grow with their content" />
+    <meta property="og:description" content="A tiny, dependency-free JavaScript module for making textarea elements grow with their content" />
+    <meta property="og:url" content="https://growfield.js.org/" />
+    <meta property="og:site_name" content="GrowField" />
+    <link rel="canonical" href="https://growfield.js.org/" />
+    <link rel="icon" href="./assets/growfield.png" media="(prefers-color-scheme: light)" />
+    <link rel="icon" href="./assets/growfield-white.png" media="(prefers-color-scheme: dark)" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css" />
     <style type="text/css">
+      html {
+        scrollbar-color: #000 #fff;
+        -webkit-tap-highlight-color: transparent;
+      }
+
       body {
-        background-color: #e9ecef;
+        background-color: #fff;
+        font-family: "Montserrat", sans-serif;
       }
 
       a {
-        color: #5185b3;
+        color: #000;
         text-decoration: underline;
       }
 
       .github-fork-ribbon:before {
-        background-color: #5185b3;
+        background-color: #000;
       }
 
-      footer {
+      .header, .footer {
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+      }
+
+      .header .container > *, .footer .container > * {
+        margin: 1rem 0;
+      }
+
+      .header a, .footer a {
+        color: #fff;
+      }
+
+      .footer {
         padding: 4rem 0;
+        text-align: center;
+      }
+
+      .github-link {
+        font-size: 50px;
+      }
+
+      .fivefifteen-link {
+        margin-top: 50px !important;
+      }
+
+      .fivefifteen-footer-link img {
+        width: 150px;
+      }
+
+      .btns {
+        text-align: center;
+      }
+
+      .btn-custom {
+        color: #fff;
+        background-color: #000;
+        border-color: #000;
+        text-decoration: none;
+      }
+
+      .btn-custom:hover {
+        color: #fff;
+      }
+
+      .npm-install {
+        color: #000;
+        display: block;
+        font-size: 18px;
+        margin-top: 50px;
       }
 
       .container {
@@ -27,7 +99,7 @@
       }
 
       #main .container {
-        background-color: #ffffff;
+        background-color: #fff;
         padding: 4rem 2rem;
       }
 
@@ -48,12 +120,19 @@
   <body>
     <a class="github-fork-ribbon" href="https://github.com/fivefifteen/growfield" data-ribbon="Check me out on GitHub" title="Check me out on GitHub">Check me out on GitHub</a>
 
-    <div class="jumbotron jumbotron-fluid">
+    <div class="header jumbotron jumbotron-fluid">
       <div class="container">
-        <h1 class="display-4">growfield</h1>
+        <img src="./assets/growfield-white.png" />
+        <h1 class="display-4">GrowField</h1>
         <p class="lead">A tiny, dependency-free JavaScript module for making textarea elements grow with their content.</p>
-        <p><a href="https://github.com/fivefifteen/growfield" target="_blank">https://github.com/fivefifteen/growfield</a></p>
+        <p class="fivefifteen-link"><a href="https://fivefifteen.com" target="_blank"><img src="./assets/fivefifteen.png" /><br /><b>A Five Fifteen Project</b></a></p>
       </div>
+    </div>
+
+    <div class="btns container">
+      <a href="https://github.com/fivefifteen/growfield/archive/refs/heads/main.zip" class="btn btn-lg btn-custom" role="button">Download</a>
+      <a href="https://github.com/fivefifteen/growfield" class="btn btn-lg btn-custom" target="_blank" role="button">GitHub/Documentation</a>
+      <code class="npm-install">npm install growfield --save</code>
     </div>
 
     <div id="main">
@@ -64,7 +143,9 @@
 
     <footer class="footer">
       <div class="container">
-        <span class="text-muted">&copy; <a href="https://fivefifteen.com" target="_blank">Five Fifteen</a></span>
+        <p class="github-link"><a href="https://github.com/fivefifteen/growfield" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></p>
+        <p class="fivefifteen-footer-link"><a href="https://fivefifteen.com" target="_blank"><img src="./assets/fivefifteen.png" /></a></p>
+        <p class="copyright">&copy; <a href="https://fivefifteen.com" target="_blank">Five Fifteen</a></p>
       </div>
     </footer>
   </body>
