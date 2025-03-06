@@ -80,6 +80,7 @@
         color: #fff;
         background-color: #000;
         border-color: #000;
+        margin: 10px;
         text-decoration: none;
       }
 
@@ -106,8 +107,15 @@
       textarea {
         font-size: 1rem;
         line-height: 1.5rem;
+        max-width: 100%;
         padding: .5rem;
         width: 400px;
+      }
+
+      @media (min-width: 600px) {
+        .btn-custom {
+          margin: 0;
+        }
       }
     </style>
     <script type="text/javascript" src="dist/growfield.min.js"></script>
