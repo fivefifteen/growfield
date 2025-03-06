@@ -1,10 +1,10 @@
 # growfield
 
 [![npm package version](https://img.shields.io/npm/v/growfield.svg?style=flat-square)](https://www.npmjs.com/package/growfield)
-[![Travis build status](https://img.shields.io/travis/com/kodie/growfield.svg?style=flat-square)](https://travis-ci.com/kodie/growfield)
+[![Travis build status](https://img.shields.io/travis/com/fivefifteen/growfield.svg?style=flat-square)](https://travis-ci.com/fivefifteen/growfield)
 [![npm package downloads](https://img.shields.io/npm/dt/growfield.svg?style=flat-square)](https://www.npmjs.com/package/growfield)
 [![code style](https://img.shields.io/badge/code_style-standard-yellow.svg?style=flat-square)](https://github.com/standard/standard)
-[![license](https://img.shields.io/github/license/kodie/growfield.svg?style=flat-square)](license.md)
+[![license](https://img.shields.io/github/license/fivefifteen/growfield.svg?style=flat-square)](license.md)
 
 A tiny, dependency-free JavaScript module for making textarea elements grow with their content.
 
@@ -31,7 +31,7 @@ Download [dist/growfield.min.js](dist/growfield.min.js) and place the following 
 Place the following HTML in your page's head element (check to make sure the version in the URL is the version you want):
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kodie/growfield@0.0.1/dist/growfield.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/fivefifteen/growfield@0.0.1/dist/growfield.min.js"></script>
 ```
 
 
@@ -53,14 +53,14 @@ const growfield = require('growfield')
 ### [GPM](https://github.com/itsahappymedium/gpm)
 
 ```
-gpm install kodie/growfield --save
+gpm install fivefifteen/growfield --save
 ```
 
 
 ### [Bower](https://bower.io)
 
 ```
-bower install kodie/growfield --save
+bower install fivefifteen/growfield --save
 ```
 
 
@@ -106,17 +106,17 @@ A special thanks to Rick Kukiela for posting [this StackOverflow answer](https:/
 
 ## Related
 
- - [filebokz](https://github.com/kodie/filebokz) - A tiny, dependency-free, highly customizable and configurable, easy to use file input with some pretty sweet features.
+ - [filebokz](https://github.com/fivefifteen/filebokz) - A tiny, dependency-free, highly customizable and configurable, easy to use file input with some pretty sweet features.
 
- - [hashjump](https://github.com/kodie/hashjump) - A tiny, dependency-free JavaScript module for handling anchor links and scrolling elements into view.
+ - [hashjump](https://github.com/fivefifteen/hashjump) - A tiny, dependency-free JavaScript module for handling anchor links and scrolling elements into view.
 
- - [kloner](https://github.com/kodie/kloner) - A tiny, dependency-free JavaScript module for cloning/repeating elements.
+ - [kloner](https://github.com/fivefifteen/kloner) - A tiny, dependency-free JavaScript module for cloning/repeating elements.
 
- - [kolorfield](https://github.com/kodie/kolorfield) - A tiny, dependency-free, color input field helper that utilizes the native color picker.
+ - [kolorfield](https://github.com/fivefifteen/kolorfield) - A tiny, dependency-free, color input field helper that utilizes the native color picker.
 
- - [minitaur](https://github.com/kodie/minitaur) - The ultimate, dependency-free, easy to use, JavaScript plugin for creating and managing modals.
+ - [minitaur](https://github.com/fivefifteen/minitaur) - The ultimate, dependency-free, easy to use, JavaScript plugin for creating and managing modals.
 
- - [peekfield](https://github.com/kodie/peekfield) - A dependency-free, easy to use, JavaScript plugin for hiding and showing fields.
+ - [peekfield](https://github.com/fivefifteen/peekfield) - A dependency-free, easy to use, JavaScript plugin for hiding and showing fields.
 
 
 ## License

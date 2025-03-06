@@ -17,16 +17,16 @@
     "vanilla"
   ],
   "author": {
-    "name": "Kodie Grantham",
-    "email": "kodie.grantham@gmail.com",
-    "url": "https://kodieg.com"
+    "name": "Five Fifteen",
+    "email": "hello@fivefifteen.com",
+    "url": "https://fivefifteen.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kodie/growfield.git"
+    "url": "https://github.com/fivefifteen/growfield.git"
   },
   "bugs": {
-    "url": "https://github.com/kodie/growfield/issues"
+    "url": "https://github.com/fivefifteen/growfield/issues"
   },
   "homepage": "https://growfield.js.org",
   "license": "MIT",

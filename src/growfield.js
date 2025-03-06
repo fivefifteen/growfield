@@ -1,6 +1,6 @@
 /*!
-  growfield v0.0.1 (https://growfield.js.org)
-  by Kodie Grantham (https://kodieg.com)
+  GrowField v0.0.1 (https://growfield.js.org)
+  by Five Fifteen (https://fivefifteen.com)
 */
 
 const growfield = (selector, options) => {
