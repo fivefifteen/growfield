@@ -13,7 +13,7 @@ const growfield = (selector, options) => {
   if (typeof selector === 'string') {
     elements = document.querySelectorAll(selector)
   } else if (selector instanceof HTMLElement) {
-    elements = [elements]
+    elements = [selector]
   }
 
   if (elements && elements.length) {
