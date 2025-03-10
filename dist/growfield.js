@@ -5,7 +5,7 @@
 })(this, (function () { 'use strict';
 
   /*!
-    GrowField v0.1.0 (https://growfield.js.org)
+    GrowField v0.1.1 (https://growfield.js.org)
     by Five Fifteen (https://fivefifteen.com)
   */
 
@@ -16,7 +16,7 @@
     if (typeof selector === 'string') {
       elements = document.querySelectorAll(selector);
     } else if (selector instanceof HTMLElement) {
-      elements = [elements];
+      elements = [selector];
     }
     if (elements && elements.length) {
       for (var i = 0; i < elements.length; i++) {

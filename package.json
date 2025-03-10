@@ -1,6 +1,6 @@
 {
   "name": "growfield",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A tiny, dependency-free JavaScript module for making textarea elements grow with their content.",
   "type": "module",
   "keywords": [
